@@ -82,7 +82,7 @@ jobs:
              if [ "${{ github.ref }}" == "refs/heads/master" ]; then
              SERVICE_NAME="latest-svc06"
              IMAGE_VERSION="${{ env.BRANCH_NAME }}-${{ github.run_number }}"
-             TASK_FAMILY="ecs-tdf-april06"
+             TASK_FAMILY="latest-tdf"
              CLUSTER="ecs-april06"
              TASK_ROLE="ecstaskrole"
              JSON_FILE=".github/workflows/task-definition"
