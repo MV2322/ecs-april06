@@ -1,5 +1,5 @@
 {
-	"family": "new-tdf",
+	"family": "true-tdf",
 	"taskRoleArn": "arn:aws:iam::767398097747:role/ecstaskrole",
 	"containerDefinitions": [{
 		"name": "apache-container",
