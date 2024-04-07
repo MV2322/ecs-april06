@@ -1,9 +1,9 @@
 {
-	"family": "true-tdf",
+	"family": "duplicate",
 	"taskRoleArn": "arn:aws:iam::767398097747:role/ecstaskrole",
 	"containerDefinitions": [{
 		"name": "apache-container",
-		"image": "767398097747.dkr.ecr.us-east-2.amazonaws.com/new-repo",
+		"image": "767398097747.dkr.ecr.us-east-2.amazonaws.com/duplicate",
 		"cpu": 400,
 		"memory": 300,
 		"memoryReservation": 200,
